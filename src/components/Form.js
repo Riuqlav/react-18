@@ -3,8 +3,12 @@ import { useState } from "react";
 
 const Form = () => {
   const [username, setusername] = useState("");
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert(`Form data is ${username}`);
+  };
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <div>
         <label>Username</label>
         <input
