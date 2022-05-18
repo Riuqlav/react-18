@@ -6,7 +6,7 @@ const Message = (props) => {
 
   return (
     <div>
-      <h1>{message}</h1>
+      <h1 className="header">{message}</h1>
       <button onClick={() => setMessage("Thank you for clicking")}>
         {" "}
         Click{" "}
