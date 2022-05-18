@@ -1,9 +1,9 @@
 import React from "react";
-import "./styles.css";
+import styles from "./StyleSheet.module.css";
 
 const StyleSheet = () => {
   return (
-    <h1 className="primary">double cheeked up on a thursday afternoon </h1>
+    <h1 className={styles.error}>double cheeked up on a thursday afternoon </h1>
   );
 };
 
