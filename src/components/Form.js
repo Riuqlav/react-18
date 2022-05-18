@@ -13,6 +13,7 @@ const Form = () => {
           onChange={(event) => setusername(event.target.value)}
         />
       </div>
+      <button type="submit">Submit</button>
     </form>
   );
 };
