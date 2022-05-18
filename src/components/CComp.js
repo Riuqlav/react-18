@@ -3,7 +3,9 @@ import React from "react";
 const CComp = (props) => {
   return (
     <div>
-      <button onClick={props.greetHandler}>Say hello to mom</button>
+      <button onClick={() => props.greetHandler("from baby")}>
+        Say hello to mom
+      </button>
     </div>
   );
 };
