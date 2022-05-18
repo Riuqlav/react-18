@@ -1,7 +1,6 @@
-h1 {
+.primary {
   display: flex;
-  flex-wrap: row;
-  position: row;
+
   color: white;
-  background-color: white;
+  background-color: black;
 }
